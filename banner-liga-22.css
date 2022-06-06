@@ -1,0 +1,60 @@
+.banner-liga22-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.banner-liga22-wrap {
+  width: 360px;
+  height: 476px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+}
+.banner-liga22-bg {
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  object-fit: cover;
+}
+.banner-liga22-car {
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  object-fit: cover;
+}
+.banner-liga22-lights {
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  object-fit: cover;
+  animation: blinker 5s linear infinite;
+}
+
+@keyframes blinker {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.banner-liga22-footer {
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  object-fit: cover;
+}
